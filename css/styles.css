@@ -926,10 +926,13 @@ textarea::placeholder {
 
   letter-spacing: 0.04em;
 }
-.policy-label {
-  display: flex;
-  align-items: center;
+.p-policy {
+  text-align: start;
+  color: #8e8f99;
+  font-size: 12px;
+  letter-spacing: 0.04em;
 }
+
 .form-icon {
   box-sizing: border-box;
   position: absolute;
@@ -978,7 +981,7 @@ textarea::placeholder {
   overflow: hidden;
 }
 .checkbox-icon {
-  display: inline-block;
+  display: flex;
   width: 16px;
   height: 16px;
 
@@ -998,10 +1001,12 @@ textarea::placeholder {
 .priv-policy {
   color: #4d5ae5;
 }
+
 @media screen and (max-width: 480px) {
   body {
     overflow-x: hidden;
   }
+
   .mobile-hidden {
     display: none;
   }
@@ -1024,6 +1029,10 @@ textarea::placeholder {
     padding-right: 16px;
     width: 100%;
   }
+  .main-desc {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
   .link-nav {
     align-self: flex-start;
     justify-self: flex-start;
@@ -1031,6 +1040,7 @@ textarea::placeholder {
     margin-right: auto;
   }
   .menu-burger {
+    display: block;
     width: 32px;
     height: 22px;
     background-color: #31d0aa;
@@ -1076,6 +1086,14 @@ textarea::placeholder {
   .main-cont {
     flex-direction: column;
     gap: 72px;
+  }
+  .section-customers {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  .section-team {
+    padding-bottom: 96px;
+    padding-top: 96px;
   }
   .customers-container {
     margin: 0;
@@ -1132,5 +1150,153 @@ textarea::placeholder {
   }
   .footer {
     padding-bottom: 96px;
+  }
+  .modal {
+    width: 392px;
+    top: 488px;
+  }
+  .form-header {
+    padding-top: 72px;
+  }
+  .form-textarea {
+    width: inherit;
+  }
+  .checkbox-icon {
+    margin-right: 10px;
+  }
+  .menu-phone {
+    width: 428px;
+    height: 796px;
+    padding-left: 40px;
+    padding-right: 30px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+  }
+  .menu-mob {
+    list-style: none;
+  }
+  .close-btn-menu {
+    width: 24px;
+    height: 24px;
+    border-color: #8e8f99;
+    fill: black;
+    background-color: #fff;
+  }
+  .menu-mob-item {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 40px;
+  }
+  .highlight {
+    color: #404bbf;
+  }
+  .tel-mob-menu {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    margin-top: 254px;
+  }
+  .email-mob-menu {
+    margin-top: 40px;
+  }
+  .email-mob-a {
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+  .actions-mob-menu {
+    list-style: none;
+    display: flex;
+    margin-top: 48px;
+    gap: 56px;
+  }
+  .a-icon-menu {
+    width: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  .tablet-hidden {
+    display: none;
+  }
+  .header {
+    padding: 16px;
+  }
+  .container {
+    width: 100%;
+    padding: 0;
+  }
+  .relations {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+  }
+  .head-content {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .nav-a::after {
+    bottom: -30px;
+  }
+  .main-desc {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  .desc-item::before {
+    display: none;
+  }
+  .list.desc {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 24px;
+    row-gap: 72px;
+    align-items: center;
+    justify-content: center;
+  }
+  .desc-item {
+    flex-basis: 45%;
+  }
+  .section-team {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  .main-cont {
+    flex-wrap: wrap;
+    gap: 24px;
+    row-gap: 72px;
+    align-items: center;
+    justify-content: center;
+  }
+  .section-customers {
+    padding-top: 96px;
+  }
+  .customer-list {
+    flex-wrap: wrap;
+    gap: 24px;
+    row-gap: 72px;
+    align-items: center;
+    justify-content: center;
+  }
+  .customer-item {
+    flex-basis: 23%;
+  }
+  .container-footer {
+    flex-wrap: wrap;
+    gap: 24px;
+    row-gap: 72px;
+    justify-content: center;
+  }
+  .footer-subscribe {
+    justify-content: flex-start;
   }
 }

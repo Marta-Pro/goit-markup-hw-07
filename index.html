@@ -55,11 +55,11 @@
           </li>
         </ul>
 
-        <a href="" class="menu-burger desktop-hidden">
+        <button class="menu-burger desktop-hidden">
           <svg class="menu-icon">
             <use href="./images/menu-hamburger.svg"></use>
           </svg>
-        </a>
+        </button>
       </div>
     </header>
     <!--Header -->
@@ -116,7 +116,7 @@
       <!-- Studio / Description of studio -->
 
       <!-- Section2- Portfolio / Description of the works of the studio -->
-      <section class="section-main prt mobile-hidden">
+      <section class="section-main prt mobile-hidden tablet-hidden">
         <div class="container">
           <h2 class="section-title">What Are We Doing</h2>
           <ul class="list prt">
@@ -148,7 +148,7 @@
 
       <!-- Section3- Contacts / Main team of studio -->
       <section class="section-team">
-        <div class="container">
+        <div class="container team-container">
           <h2 class="section-title team">Our Team</h2>
           <ul class="main-cont">
             <li class="list team">
@@ -476,13 +476,14 @@
                 type="checkbox"
                 name="policy"
                 id="policy"
-                class="checkbox"
-              />
-              <span class="checkbox-icon"></span>
+                class="checkbox" />
 
-              I accept the terms and conditions of the&nbsp;
+              <span class="checkbox-icon"></span
+            ></label>
+            <p class="p-policy">
+              I accept the terms and conditions of the
               <a href="" class="priv-policy"> Privacy Policy</a>
-            </label>
+            </p>
           </div>
 
           <button type="submit" class="form-btn">Send</button>
@@ -490,6 +491,64 @@
       </div>
     </div>
 
+    <div class="backdrop is-hidden" data-modal>
+      <div class="menu-phone">
+        <button class="close-button close-btn-menu" data-modal-close>
+          <svg class="close-icon">
+            <use href="./images/icon.svg#close-btn"></use>
+          </svg>
+        </button>
+
+        <nav class="nav-mobile">
+          <ul class="menu-mob">
+            <li class="menu-mob-item highlight">Studio</li>
+            <li class="menu-mob-item">Portfolio</li>
+            <li class="menu-mob-item">Contacts</li>
+          </ul>
+        </nav>
+        <ul class="list">
+          <li class="tel-mob-menu hightlight">
+            <a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a>
+          </li>
+
+          <li class="email-mob-menu">
+            <a href="mailto:info@devstudio.com" class="link email-mob-a"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
+        <ul class="actions-mob-menu">
+          <li>
+            <a href="" class="a-act">
+              <svg class="a-icon-menu">
+                <use href="./images/icon.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="" class="a-act">
+              <svg class="a-icon-menu">
+                <use href="./images/icon.svg#twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="" class="a-act">
+              <svg class="a-icon-menu">
+                <use href="./images/icon.svg#facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="" class="a-act">
+              <svg class="a-icon-menu">
+                <use href="./images/icon.svg#linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
     <!-- Вся твоя розмітка, включно з розміткою модалки -->
 
     <!-- Ставимо перед закриваючим тегом body -->
