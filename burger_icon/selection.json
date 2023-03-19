@@ -1,0 +1,80 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M62.75 932.915h1374.881M62.75 499.684h1374.881M62.75 66.454h1374.881"
+        ],
+        "attrs": [
+          {
+            "fill": "none",
+            "strokeLinejoin": "round",
+            "strokeLinecap": "round",
+            "strokeMiterlimit": "4",
+            "strokeWidth": 139.63636363636363
+          }
+        ],
+        "width": 1489,
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "menu_burger"
+        ]
+      },
+      "attrs": [
+        {
+          "fill": "none",
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round",
+          "strokeMiterlimit": "4",
+          "strokeWidth": 139.63636363636363
+        }
+      ],
+      "properties": {
+        "order": 22,
+        "id": 0,
+        "name": "menu_burger",
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 4,
+      "iconIdx": 0
+    }
+  ],
+  "height": 1024,
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon"
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false
+    },
+    "imagePref": {
+      "prefix": "",
+      "png": false,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon",
+      "name": "icomoon",
+      "height": 32,
+      "columns": 16,
+      "margin": 16
+    },
+    "historySize": 50,
+    "showCodes": true,
+    "gridSize": 16
+  }
+}

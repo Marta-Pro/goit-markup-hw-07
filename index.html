@@ -55,9 +55,9 @@
           </li>
         </ul>
 
-        <button class="menu-burger desktop-hidden">
-          <svg class="menu-icon">
-            <use href="./images/menu-hamburger.svg"></use>
+        <button class="menu-burger desktop-hidden js-open-menu" data-menu-open>
+          <svg class="icon menu_burger">
+            <use href="./images/icon.svg#burger"></use>
           </svg>
         </button>
       </div>
@@ -491,67 +491,67 @@
       </div>
     </div>
 
-    <div class="backdrop is-hidden" data-modal>
-      <div class="menu-phone">
-        <button class="close-button close-btn-menu" data-modal-close>
-          <svg class="close-icon">
-            <use href="./images/icon.svg#close-btn"></use>
-          </svg>
-        </button>
+    <div class="menu-phone js-menu-container">
+      <button class="close-btn-menu desktop-hidden js-close-menu">
+        <svg class="close-icon">
+          <use href="./images/icon.svg#close-btn"></use>
+        </svg>
+      </button>
 
-        <nav class="nav-mobile">
-          <ul class="menu-mob">
-            <li class="menu-mob-item highlight">Studio</li>
-            <li class="menu-mob-item">Portfolio</li>
-            <li class="menu-mob-item">Contacts</li>
-          </ul>
-        </nav>
-        <ul class="list">
-          <li class="tel-mob-menu hightlight">
-            <a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a>
-          </li>
+      <nav class="nav-mobile">
+        <ul class="menu-mob">
+          <li class="menu-mob-item highlight">Studio</li>
+          <li class="menu-mob-item">Portfolio</li>
+          <li class="menu-mob-item">Contacts</li>
+        </ul>
+      </nav>
+      <ul class="list">
+        <li class="tel-mob-menu hightlight">
+          <a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a>
+        </li>
 
-          <li class="email-mob-menu">
-            <a href="mailto:info@devstudio.com" class="link email-mob-a"
-              >info@devstudio.com</a
-            >
-          </li>
-        </ul>
-        <ul class="actions-mob-menu">
-          <li>
-            <a href="" class="a-act">
-              <svg class="a-icon-menu">
-                <use href="./images/icon.svg#instagram"></use>
-              </svg>
-            </a>
-          </li>
-          <li>
-            <a href="" class="a-act">
-              <svg class="a-icon-menu">
-                <use href="./images/icon.svg#twitter"></use>
-              </svg>
-            </a>
-          </li>
-          <li>
-            <a href="" class="a-act">
-              <svg class="a-icon-menu">
-                <use href="./images/icon.svg#facebook"></use>
-              </svg>
-            </a>
-          </li>
-          <li>
-            <a href="" class="a-act">
-              <svg class="a-icon-menu">
-                <use href="./images/icon.svg#linkedin"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
-      </div>
+        <li class="email-mob-menu">
+          <a href="mailto:info@devstudio.com" class="link email-mob-a"
+            >info@devstudio.com</a
+          >
+        </li>
+      </ul>
+      <ul class="actions-mob-menu">
+        <li>
+          <a href="" class="a-act">
+            <svg class="a-icon-menu">
+              <use href="./images/icon.svg#instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="" class="a-act">
+            <svg class="a-icon-menu">
+              <use href="./images/icon.svg#twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="" class="a-act">
+            <svg class="a-icon-menu">
+              <use href="./images/icon.svg#facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="" class="a-act">
+            <svg class="a-icon-menu">
+              <use href="./images/icon.svg#linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
     </div>
+
     <!-- Вся твоя розмітка, включно з розміткою модалки -->
 
     <!-- Ставимо перед закриваючим тегом body -->
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
